@@ -92,8 +92,8 @@
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  border-radius: 35px;
-  -webkit-border-radius: 45px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
 }
 
 .readme:hover{
@@ -105,7 +105,7 @@
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: rgb(160, 110, 36);
+  background: rgb(26, 70, 17);
   color: #fff;
   border: 2px solid #fff;
   font-weight: 600;
@@ -718,6 +718,27 @@ small {
   }
   .top img{
     margin-left: 350px;
+  }
+  .readme{
+    font-size: 15px;
+    padding: 25px;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+  -webkit-border-radius: 10px;
+    
+  }
+  .contactme{
+    font-size: 15px;
+    padding: 25px;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+  -webkit-border-radius: 10px;
   }
 }
 
