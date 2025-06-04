@@ -169,6 +169,12 @@
     <!-- Nav class 3 -->
     <nav class="hide-on-large only">
       <ul id="slide-out" class="side-nav">
+        <!-- 🔽 Insert Close Button Here -->
+  <li class="bold">
+    <a href="#!" class="waves-effect waves-dark teal-text close-btn">
+      <i class="mdi-navigation-close small"></i><span>Close</span>
+    </a>
+  </li>
         <li class="bold">
           <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
               class="mdi-social-person small"></i><span>About</span></a>
@@ -1064,6 +1070,16 @@
         })
       })
     </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var sidenav = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(sidenav);
+
+      document.querySelector('.close-btn').addEventListener('click', function () {
+        instances[0].close();
+      });
+    });
+  </script>
   </body>
 
 </html>
