@@ -140,10 +140,11 @@
         </li>
 
         <li class="bold">
-          
+
           <a aria-label="Open Sajid's resume in a new tab"
-            href="https://github.com/sajidsh65/my-resume/raw/master/Sajid_Resume.pdf" download target="_blank"
-            class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>CV / Resume</span></a>
+            href="https://github.com/sajidsh65/my-resume/raw/master/sajid_Resume.pdf" download target="_blank"
+            class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>CV /
+              Resume</span></a>
         </li>
       </ul>
     </nav>
@@ -170,11 +171,11 @@
     <nav class="hide-on-large only">
       <ul id="slide-out" class="side-nav">
         <!-- 🔽 Insert Close Button Here -->
-  <li class="bold">
-    <a href="#!" class="waves-effect waves-dark teal-text close-btn">
-      <i class="mdi-navigation-close small"></i><span>Close</span>
-    </a>
-  </li>
+        <li class="bold">
+          <a href="#!" class="waves-effect waves-dark teal-text close-btn">
+            <i class="mdi-navigation-close small"></i><span>Close</span>
+          </a>
+        </li>
         <li class="bold">
           <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
               class="mdi-social-person small"></i><span>About</span></a>
@@ -203,7 +204,7 @@
         </li>
         <li class="bold">
           <a aria-label="Open Sajid's Resume in a new tab"
-            href="https://github.com/sajidsh65/my-resume/raw/master/Sajid_Resume.pdf" download target="_blank"
+            href="https://github.com/sajidsh65/my-resume/raw/master/sajid_Resume.pdf" download target="_blank"
             class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
         </li>
       </ul>
@@ -475,6 +476,55 @@
         <h3 class="page-title white-text teal">Projects</h3>
         <div class="container">
           <div class="row">
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="music streaming app" src="/assets/img/s1.jpg" style="height: 100%; width: 100%"
+                    class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">Clinic Scheduler<i
+                      class="mdi-navigation-more-vert right"></i></span>
+                  <p>
+                    A Clinic Scheduler in Next.js
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <!-- TODO: change this -- only close button -->
+                  <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                  <span class="card-title grey-text"><small>Accomplishments</small><i
+                      class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><b>Tools:</b>
+                      🔹 Next.js (App Router) <br>
+                      🔹 TypeScript <br>
+                      🔹 Tailwind CSS <br>
+                      🔹 React Hook Form + Zod for validation <br>
+                      🔹 Luxon for date/time handling</li>
+                    <li><b>Key Features:</b>
+                      ✅ Interactive calendar view with drag-and-drop <br>
+                      ✅ Patient appointment management (CRUD operations) <br>
+                      ✅ Doctor and treatment selection <br>
+                      ✅ Responsive design for all devices <br>
+                      ✅ Dark/light mode support</li> <br>
+                    <li>This project is live.</li>
+
+
+                  </ul>
+                  <div class="card-action">
+                    <a aria-label="Visit " href="https://clinic-scheduler-by-sajid.vercel.app/" target="_blank"
+                      data-position="top" data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-external-link"></i></a>
+                    <a aria-label="Visit the GitHub repo for  project" href="https://github.com/sajidsh65/clinic-scheduler"
+                      target="_blank" data-position="top" data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div class="col s12 m6 l4">
               <div class="card medium">
@@ -1071,15 +1121,15 @@
       })
     </script>
     <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var sidenav = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(sidenav);
+      document.addEventListener('DOMContentLoaded', function () {
+        var sidenav = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(sidenav);
 
-      document.querySelector('.close-btn').addEventListener('click', function () {
-        instances[0].close();
+        document.querySelector('.close-btn').addEventListener('click', function () {
+          instances[0].close();
+        });
       });
-    });
-  </script>
+    </script>
   </body>
 
 </html>
